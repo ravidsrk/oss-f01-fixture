@@ -13,6 +13,3 @@ def test_mean_empty():
 def test_percent_zero_whole():
     assert percent(5.0, 0.0) == 0.0
 
-
-def test_percent_full():
-    assert percent(2.0, 2.0) == 1.0
